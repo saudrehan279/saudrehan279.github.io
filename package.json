@@ -6,7 +6,8 @@
   "homepage": "https://github.com/saudrehan279/NodeJs.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d index.js"
+    "deploy": "gh-pages -d index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
