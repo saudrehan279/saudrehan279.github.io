@@ -10,14 +10,12 @@ App.use(cors({
 
 App.get("/get", async (req, res) => {
      res.status(200).send({
-          message: "Success!" 
+          message: "Success!"
      })
 });
 
-App.get("/",async(req,res) => {
-     res.status(200).send({
-          "Hello There!"
-     })
+App.get("/", async (req, res) => {
+     res.status(200).send("Hello There!")
 })
 
 
