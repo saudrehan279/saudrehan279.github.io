@@ -14,6 +14,12 @@ App.get("/get", async (req, res) => {
      })
 });
 
+App.get("/",async(req,res) => {
+     res.status(200).send({
+          "Hello There!"
+     })
+})
+
 
 App.listen(4000, () => {
      console.log(`Listening on port 4000`)
